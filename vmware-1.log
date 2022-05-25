@@ -1,0 +1,761 @@
+2022-05-25T16:43:31.038+06:00| vmx| I005: Log for VMware Workstation pid=23672 version=16.1.2 build=build-17966106 option=Release
+2022-05-25T16:43:31.038+06:00| vmx| I005: The host is 64-bit.
+2022-05-25T16:43:31.038+06:00| vmx| I005: Host codepage=windows-1251 encoding=windows-1251
+2022-05-25T16:43:31.038+06:00| vmx| I005: Host is Windows 10 Pro, 64-bit (Build 22000.675)
+2022-05-25T16:43:31.025+06:00| vmx| I005: VTHREAD 18176 "vmx"
+2022-05-25T16:43:31.027+06:00| vmx| I005: LOCALE windows-1251 -> NULL User=419 System=419
+2022-05-25T16:43:31.027+06:00| vmx| I005: Msg_SetLocaleEx: HostLocale=windows-1251 UserLocale=NULL
+2022-05-25T16:43:31.031+06:00| vmx| I005: DictionaryLoad: Cannot open file "C:\Users\LAdmin\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2022-05-25T16:43:31.031+06:00| vmx| I005: Msg_Reset:
+2022-05-25T16:43:31.031+06:00| vmx| I005: [msg.dictionary.load.openFailed] Cannot open file "C:\Users\LAdmin\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2022-05-25T16:43:31.031+06:00| vmx| I005: ----------------------------------------
+2022-05-25T16:43:31.031+06:00| vmx| I005: ConfigDB: Failed to load C:\Users\LAdmin\AppData\Roaming\VMware\config.ini
+2022-05-25T16:43:31.031+06:00| vmx| I005: Win32U_GetFileAttributes: GetFileAttributesExW("D:\Virtualization\beebox8\Ubuntu 64-bit.vmpl", ...) failed, error: 2
+2022-05-25T16:43:31.031+06:00| vmx| I005: OBJLIB-LIB: Objlib initialized.
+2022-05-25T16:43:31.033+06:00| vmx| I005: DictionaryLoad: Cannot open file "C:\Users\LAdmin\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2022-05-25T16:43:31.033+06:00| vmx| I005: [msg.dictionary.load.openFailed] Cannot open file "C:\Users\LAdmin\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2022-05-25T16:43:31.033+06:00| vmx| I005: PREF Optional preferences file not found at C:\Users\LAdmin\AppData\Roaming\VMware\config.ini. Using default values.
+2022-05-25T16:43:31.033+06:00| vmx| I005: UUID: SMBIOS UUID is reported as 'b6 24 2a bc f6 1e 91 c4-61 0c 24 4b fe 52 7a ea'.
+2022-05-25T16:43:31.036+06:00| vmx| I005: lib/ssl: OpenSSL using FIPS_drbg for RAND
+2022-05-25T16:43:31.036+06:00| vmx| I005: lib/ssl: protocol list tls1.2
+2022-05-25T16:43:31.036+06:00| vmx| I005: lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2022-05-25T16:43:31.036+06:00| vmx| I005: lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2022-05-25T16:43:31.036+06:00| vmx| I005: lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2022-05-25T16:43:31.075+06:00| vmx| I005: Hostname=DESKTOP-SUGIN6G
+2022-05-25T16:43:31.078+06:00| vmx| I005: IP=fe80::340e:8c08:3fab:f3c5%22
+2022-05-25T16:43:31.078+06:00| vmx| I005: IP=fe80::1563:512e:cb96:a9fb%18
+2022-05-25T16:43:31.078+06:00| vmx| I005: IP=fe80::3d95:3dd1:390d:6ff8%5
+2022-05-25T16:43:31.078+06:00| vmx| I005: IP=fe80::65d2:a8bc:2f7d:51f2%47
+2022-05-25T16:43:31.078+06:00| vmx| I005: IP=192.168.184.1
+2022-05-25T16:43:31.078+06:00| vmx| I005: IP=192.168.222.1
+2022-05-25T16:43:31.078+06:00| vmx| I005: IP=192.168.11.90
+2022-05-25T16:43:31.078+06:00| vmx| I005: IP=172.21.112.1
+2022-05-25T16:43:31.105+06:00| vmx| I005: System uptime 1258036914533 us
+2022-05-25T16:43:31.105+06:00| vmx| I005: Command line: "C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe" "-T" "querytoken" "-s" "vmx.stdio.keep=TRUE" "-#" "product=1;name=VMware Workstation;version=16.1.2;buildnumber=17966106;licensename=VMware Workstation;licenseversion=16.0;" "-@" "pipe=\\.\pipe\vmx2d9ce5e015115141;msgs=ui" "D:\Virtualization\beebox8\Ubuntu 64-bit.vmx"
+2022-05-25T16:43:31.105+06:00| vmx| I005: Msg_SetLocaleEx: HostLocale=windows-1251 UserLocale=NULL
+2022-05-25T16:43:31.122+06:00| vmx| I005: WQPoolAllocPoll : pollIx = 1, signalHandle = 856
+2022-05-25T16:43:31.122+06:00| vmx| I005: WQPoolAllocPoll : pollIx = 2, signalHandle = 864
+2022-05-25T16:43:31.123+06:00| vmx| I005: VigorTransport listening on fd 872
+2022-05-25T16:43:31.123+06:00| vmx| I005: Vigor_Init 1
+2022-05-25T16:43:31.123+06:00| vmx| I005: Connecting 'ui' to pipe '\\.\pipe\vmx2d9ce5e015115141' with user '(null)'
+2022-05-25T16:43:31.123+06:00| vmx| I005: VMXVmdb: Local connection timeout: 60000 ms.
+2022-05-25T16:43:31.229+06:00| vmx| I005: VmdbAddConnection: cnxPath=/db/connection/#1/, cnxIx=1
+2022-05-25T16:43:31.229+06:00| vmx| I005: Vix: [mainDispatch.c:486]: VMAutomation: Initializing VMAutomation.
+2022-05-25T16:43:31.229+06:00| vmx| I005: Vix: [mainDispatch.c:738]: VMAutomationOpenListenerSocket() listening
+2022-05-25T16:43:31.232+06:00| vmx| I005: Vix: [mainDispatch.c:4205]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2022-05-25T16:43:31.232+06:00| vmx| I005: Transitioned vmx/execState/val to poweredOff
+2022-05-25T16:43:31.232+06:00| vmx| I005: Vix: [mainDispatch.c:4205]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2022-05-25T16:43:31.232+06:00| vmx| I005: Vix: [mainDispatch.c:4205]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1 additionalError=0
+2022-05-25T16:43:31.232+06:00| vmx| I005: Vix: [mainDispatch.c:4205]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1 additionalError=0
+2022-05-25T16:43:31.233+06:00| vmx| I005: IOPL_Init: Hyper-V detected by CPUID
+2022-05-25T16:43:31.234+06:00| vmx| I005: IOCTL_VMX86_SET_MEMORY_PARAMS already set
+2022-05-25T16:43:31.234+06:00| vmx| I005: FeatureCompat: No EVC masks.
+2022-05-25T16:43:31.249+06:00| vmx| I005: hostCPUID vendor: AuthenticAMD
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID family: 0x19 model: 0x21 stepping: 0x0
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID codename: Zen3
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID name: AMD Ryzen 7 5800X 8-Core Processor             
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 00000000, 0: 0x0000000d 0x68747541 0x444d4163 0x69746e65
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 00000001, 0: 0x00a20f10 0x00100800 0xfed8320b 0x178bfbff
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 00000002, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 00000004, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00000011
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 00000006, 0: 0x00000000 0x00000000 0x00000001 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 00000007, 0: 0x00000000 0x219c97a9 0x00400684 0x00000010
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000b, 1: 0x00000004 0x00000010 0x00000201 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000d, 0: 0x00000007 0x00000340 0x00000340 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000d, 1: 0x0000000f 0x00000350 0x00001800 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000d, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000d, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000d, 5: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000d, 6: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000d, 7: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000d, 8: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000d, 9: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000d, a: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000d, b: 0x00000010 0x00000000 0x00000001 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 0000000d, c: 0x00000018 0x00000000 0x00000001 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 40000000, 0: 0x4000000c 0x7263694d 0x666f736f 0x76482074
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 40000001, 0: 0x31237648 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 40000002, 0: 0x000055f0 0x000a0000 0x00000000 0x000002a3
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 40000003, 0: 0x0000bfff 0x002bb9ff 0x00000062 0x71fffbf6
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 40000004, 0: 0x00040d1c 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 40000005, 0: 0x00000400 0x00000400 0x00000ba0 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 40000006, 0: 0x001e00ae 0x00000030 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 40000007, 0: 0x80000007 0x00000003 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 40000008, 0: 0x00100001 0x00000001 0x0000aaaa 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 40000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 4000000a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 4000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 4000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000000, 0: 0x80000021 0x68747541 0x444d4163 0x69746e65
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000001, 0: 0x00a20f10 0x20000000 0x20c023f3 0x2fd3fbff
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000002, 0: 0x20444d41 0x657a7952 0x2037206e 0x30303835
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000003, 0: 0x2d382058 0x65726f43 0x6f725020 0x73736563
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000004, 0: 0x2020726f 0x20202020 0x20202020 0x00202020
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000005, 0: 0xff40ff40 0xff40ff40 0x20080140 0x20080140
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000006, 0: 0x48002200 0x68004200 0x02006140 0x01009140
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000007, 0: 0x00000000 0x0000001b 0x00000000 0x00004589
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000008, 0: 0x00003030 0x1100d215 0x0000400f 0x00010000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000000a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000000d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000010, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000011, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000012, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000013, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000014, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000015, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000016, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000017, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000018, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000019, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000001a, 0: 0x00000006 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000001b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000001c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000001d, 0: 0x00004121 0x01c0003f 0x0000003f 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000001d, 1: 0x00004122 0x01c0003f 0x0000003f 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000001d, 2: 0x00004143 0x01c0003f 0x000003ff 0x00000002
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000001d, 3: 0x0003c163 0x03c0003f 0x00007fff 0x00000001
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000001d, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000001e, 0: 0x00000000 0x00000100 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 8000001f, 0: 0x0000000f 0x00000173 0x000001fd 0x00000001
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000020, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000020, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: hostCPUID level 80000021, 0: 0x00000001 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:31.250+06:00| vmx| I005: CPUID differences from hostCPUID.
+2022-05-25T16:43:31.250+06:00| vmx| I005: Physical APIC IDs: 0-15
+2022-05-25T16:43:31.250+06:00| vmx| I005: Physical Extended APIC IDs: 0-15
+2022-05-25T16:43:31.250+06:00| vmx| I005: Physical Compute Unit IDs: 0(x2),1(x2),2(x2),3(x2),4(x2),5(x2),6(x2),7(x2)
+2022-05-25T16:43:31.250+06:00| vmx| I005: Physical Node IDs: 0(x16)
+2022-05-25T16:43:31.250+06:00| vmx| I005: Common: MSR       0x3a =                  0
+2022-05-25T16:43:31.250+06:00| vmx| I005: Common: MSR      0x480 =                  0
+2022-05-25T16:43:31.250+06:00| vmx| I005: Common: MSR      0x481 =                  0
+2022-05-25T16:43:31.250+06:00| vmx| I005: Common: MSR      0x482 =                  0
+2022-05-25T16:43:31.250+06:00| vmx| I005: Common: MSR      0x483 =                  0
+2022-05-25T16:43:31.250+06:00| vmx| I005: Common: MSR      0x484 =                  0
+2022-05-25T16:43:31.250+06:00| vmx| I005: Common: MSR      0x485 =                  0
+2022-05-25T16:43:31.250+06:00| vmx| I005: Common: MSR      0x486 =                  0
+2022-05-25T16:43:31.250+06:00| vmx| I005: Common: MSR      0x487 =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR      0x488 =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR      0x489 =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR      0x48a =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR      0x48b =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR      0x48c =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR      0x48d =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR      0x48e =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR      0x48f =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR      0x490 =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR      0x491 =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR 0xc0010114 =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR       0xce =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR      0x10a =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: Common: MSR      0x122 =                  0
+2022-05-25T16:43:31.251+06:00| vmx| I005: PTSC: RefClockToPTSC 0 @ 10000000Hz -> 0 @ 3800003766Hz
+2022-05-25T16:43:31.251+06:00| vmx| I005: PTSC: RefClockToPTSC ((x * 3187674199) >> 23) + -4780545568902917
+2022-05-25T16:43:31.251+06:00| vmx| I005: PTSC: tscOffset 0
+2022-05-25T16:43:31.251+06:00| vmx| I005: PTSC: using reference clock
+2022-05-25T16:43:31.251+06:00| vmx| I005: PTSC: hardware TSCs are synchronized.
+2022-05-25T16:43:31.251+06:00| vmx| I005: PTSC: hardware TSCs may have been adjusted by the host.
+2022-05-25T16:43:31.251+06:00| vmx| I005: PTSC: current PTSC=121981
+2022-05-25T16:43:31.254+06:00| vmx| I005: WQPoolAllocPoll : pollIx = 3, signalHandle = 952
+2022-05-25T16:43:31.284+06:00| vmx| I005: ConfigCheck: No rules file found. Checks are disabled.
+2022-05-25T16:43:31.284+06:00| vmx| I005: changing directory to D:\Virtualization\beebox8\.
+2022-05-25T16:43:31.284+06:00| vmx| I005: Config file: D:\Virtualization\beebox8\Ubuntu 64-bit.vmx
+2022-05-25T16:43:31.284+06:00| vmx| I005: Vix: [mainDispatch.c:4205]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2022-05-25T16:43:31.284+06:00| vmx| I005: Vix: [mainDispatch.c:4205]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1 additionalError=0
+2022-05-25T16:43:31.298+06:00| vmx| A000: ConfigDB: Setting ide1:0.fileName = "auto detect"
+2022-05-25T16:43:31.324+06:00| vmx| W003: PowerOn
+2022-05-25T16:43:31.324+06:00| vmx| I005: VMX_PowerOn: VMX build 17966106, UI build 17966106
+2022-05-25T16:43:31.324+06:00| vmx| I005: HostWin32: WIN32 NUMA node 0, CPU mask 0x000000000000ffff
+2022-05-25T16:43:31.328+06:00| vmx| I005: Vix: [mainDispatch.c:4205]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1 additionalError=0
+2022-05-25T16:43:31.328+06:00| vmx| I005: HOST Windows version 10.0, build 22000, platform 2, ""
+2022-05-25T16:43:31.328+06:00| vmx| I005: DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini
+2022-05-25T16:43:31.328+06:00| vmx| I005: DICT          printers.enabled = "FALSE"
+2022-05-25T16:43:31.328+06:00| vmx| I005: DICT --- NON PERSISTENT (null)
+2022-05-25T16:43:31.328+06:00| vmx| I005: DICT --- USER PREFERENCES C:\Users\LAdmin\AppData\Roaming\VMware\preferences.ini
+2022-05-25T16:43:31.328+06:00| vmx| I005: DICT   pref.lastUpdateCheckSec = "1653410557"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT        pref.hostMRU.count = "1"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT        pref.hostMRU0.name = "localhost"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT        pref.hostMRU0.type = "vim"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT    pref.hostMRU0.viewtype = "vmView"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window.count = "1"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab.count = "5"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab0.dest = ""
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab0.file = ""
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab0.type = "home"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab0.cnxType = "vmdb"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab0.focused = "FALSE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab1.dest = ""
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab1.file = "D:\Virtualization\VMware\GNS3 VM.vmx"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab1.type = "vm"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab1.cnxType = "vmdb"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab1.focused = "FALSE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.sidebar = "FALSE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.sidebar.width = "300"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.statusBar = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tabs = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.thumbnailBar = "FALSE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.thumbnailBar.size = "187"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.thumbnailBar.view = "same-folder"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.placement.left = "1844"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.placement.top = "405"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.placement.right = "3385"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.placement.bottom = "1730"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.maximized = "FALSE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab2.dest = ""
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab2.file = "E:\VM\ubnt\ubuntu2004.vmx"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab2.type = "vm"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab2.cnxType = "vmdb"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab2.focused = "FALSE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab3.dest = ""
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab3.file = "D:\Virtualization\bee-box_v1.6\bee-box\bee-box.vmx"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab3.type = "vm"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab3.cnxType = "vmdb"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab3.focused = "FALSE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT         vmWizard.guestKey = "ubuntu-64"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT             vmWizard.mode = "custom"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT vmWizard.installMediaType = "later"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab4.dest = ""
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab4.file = "D:\Virtualization\beebox\beebox.vmx"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab4.type = "vm"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab4.cnxType = "vmdb"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT pref.ws.session.window0.tab4.focused = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT --- USER DEFAULTS C:\Users\LAdmin\AppData\Roaming\VMware\config.ini
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT         authd.client.port = "902"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "29524"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.componentDownloadEnabled = "yes"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled = "yes"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled.epoch = "29524"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT         authd.client.port = "902"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "29524"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.componentDownloadEnabled = "yes"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled = "yes"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled.epoch = "29524"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT --- NONPERSISTENT
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT            vmx.stdio.keep = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT             gui.available = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT --- COMMAND LINE
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT            vmx.stdio.keep = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT             gui.available = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT --- RECORDING
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT            vmx.stdio.keep = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT             gui.available = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT --- CONFIGURATION D:\Virtualization\beebox8\Ubuntu 64-bit.vmx 
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT            config.version = "8"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT         virtualHW.version = "8"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT           svga.autodetect = "FALSE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT        pciBridge0.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT        pciBridge4.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT     pciBridge4.virtualDev = "pcieRootPort"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT      pciBridge4.functions = "8"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT        pciBridge5.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT     pciBridge5.virtualDev = "pcieRootPort"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT      pciBridge5.functions = "8"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT        pciBridge6.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT     pciBridge6.virtualDev = "pcieRootPort"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT      pciBridge6.functions = "8"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT        pciBridge7.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT     pciBridge7.virtualDev = "pcieRootPort"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT      pciBridge7.functions = "8"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT             vmci0.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT             hpet0.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT                     nvram = "Ubuntu 64-bit.nvram"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT virtualHW.productCompatibility = "hosted"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT        powerType.powerOff = "soft"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT         powerType.powerOn = "soft"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT         powerType.suspend = "soft"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT           powerType.reset = "soft"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT               displayName = "Ubuntu 64-bit"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT usb.vbluetooth.startConnected = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT                   guestOS = "ubuntu-64"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT            tools.syncTime = "FALSE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT      sound.startConnected = "FALSE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT          sound.autoDetect = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT            sound.fileName = "-1"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT             sound.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT                  numvcpus = "2"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT               vcpu.hotadd = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT                   memsize = "4096"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT                mem.hotadd = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT          scsi0.virtualDev = "lsilogic"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT             scsi0.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT          scsi0:0.fileName = "bee-box.vmdk"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT           scsi0:0.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT         ide1:0.autodetect = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT         ide1:0.deviceType = "cdrom-raw"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT           ide1:0.fileName = "auto detect"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT            ide1:0.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT               usb.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT              ehci.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT            svga.maxHeight = "768"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT             svga.maxWidth = "1024"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT             svga.vramSize = "3145728"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT     ethernet0.addressType = "generated"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT      ethernet0.virtualDev = "e1000"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT          serial0.fileType = "thinprint"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT          serial0.fileName = "thinprint"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT         ethernet0.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT           serial0.present = "TRUE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT        extendedConfigFile = "Ubuntu 64-bit.vmxf"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT           floppy0.present = "FALSE"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT --- USER DEFAULTS C:\Users\LAdmin\AppData\Roaming\VMware\config.ini 
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT         authd.client.port = "902"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "29524"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.componentDownloadEnabled = "yes"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled = "yes"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled.epoch = "29524"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT         authd.client.port = "902"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "29524"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.componentDownloadEnabled = "yes"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled = "yes"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled.epoch = "29524"
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+2022-05-25T16:43:31.329+06:00| vmx| I005: DICT          printers.enabled = "FALSE"
+2022-05-25T16:43:31.332+06:00| vmx| I005: ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2022-05-25T16:43:31.332+06:00| vmx| I005: ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2022-05-25T16:43:31.332+06:00| vmx| I005: ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2022-05-25T16:43:31.332+06:00| vmx| I005: ToolsISO: Selected Tools ISO 'linux.iso' for 'ubuntu-64' guest.
+2022-05-25T16:43:31.333+06:00| vmx| I005: Vix: [mainDispatch.c:4205]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2022-05-25T16:43:31.333+06:00| vmx| I005: Win32U_GetFileAttributes: GetFileAttributesExW("D:\Virtualization\beebox8\Ubuntu 64-bit.nvram", ...) failed, error: 2
+2022-05-25T16:43:31.334+06:00| vmx| I005: Monitor Mode: ULM
+2022-05-25T16:43:31.334+06:00| vmx| I005: MsgHint: msg.loader.mitigations.wsAndFusion
+2022-05-25T16:43:31.334+06:00| vmx| I005+ You are running this virtual machine with side channel mitigations enabled. Side channel mitigations provide enhanced security but also lower performance.
+2022-05-25T16:43:31.334+06:00| vmx| I005+ 
+2022-05-25T16:43:31.334+06:00| vmx| I005+ To disable mitigations, change the side channel mitigations setting in the advanced panel of the virtual machine settings. Refer to VMware KB article 79832 at https://kb.vmware.com/s/article/79832 for more details.
+2022-05-25T16:43:31.334+06:00| vmx| I005+ ---------------------------------------
+2022-05-25T16:43:32.857+06:00| vmx| I005: OvhdMem_PowerOn: initial admission: paged   276258 nonpaged     5146 anonymous     6992
+2022-05-25T16:43:32.857+06:00| vmx| I005: VMMEM: Initial Reservation: 1126MB (MainMem=4096MB)
+2022-05-25T16:43:32.857+06:00| vmx| I005: MemSched_PowerOn: balloon minGuestSize 209715 (80% of min required size 262144)
+2022-05-25T16:43:32.857+06:00| vmx| I005: MemSched: reserved mem (in MB) min 128 max 28595 recommended 28595
+2022-05-25T16:43:32.857+06:00| vmx| I005: MemSched: pg 276258 np 5146 anon 6992 mem 1048576
+2022-05-25T16:43:32.872+06:00| vmx| I005: MemSched: numvm 1 locked pages: num 0 max 7312128
+2022-05-25T16:43:32.872+06:00| vmx| I005: MemSched: locked Page Limit: host 7484543 config 7320320 dynam 8589934591
+2022-05-25T16:43:32.872+06:00| vmx| I005: MemSched: minmempct 50 minalloc 0 admitted 1
+2022-05-25T16:43:32.872+06:00| vmx| I005: numa: Hot add is enabled and vNUMA hot add is disabled, forcing UMA.
+2022-05-25T16:43:32.872+06:00| vmx| I005: llc: maximum vcpus per LLC: 1
+2022-05-25T16:43:32.872+06:00| vmx| I005: llc: vLLC size: 1
+2022-05-25T16:43:32.872+06:00| PowerNotifyThread| I005: VTHREAD 25944 "PowerNotifyThread"
+2022-05-25T16:43:32.872+06:00| PowerNotifyThread| I005: PowerNotify thread is alive.
+2022-05-25T16:43:32.873+06:00| vmx| I005: LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\Dormant\License.ws.16.0.e2.202001' 
+2022-05-25T16:43:32.873+06:00| vthread-24528| I005: VTHREAD 24528 "vthread-24528"
+2022-05-25T16:43:32.873+06:00| vmx| I005: Win32U_GetFileAttributes: GetFileAttributesExW("D:\Virtualization\beebox8\Ubuntu 64-bit.vmpl", ...) failed, error: 2
+2022-05-25T16:43:32.873+06:00| vmx| I005: PolicyVMXFindPolicyKey: policy file does not exist.
+2022-05-25T16:43:32.873+06:00| vmx| I005: Win32U_GetFileAttributes: GetFileAttributesExW("D:\Virtualization\beebox8\Ubuntu 64-bit.vmpl", ...) failed, error: 2
+2022-05-25T16:43:32.873+06:00| vmx| I005: PolicyVMXFindPolicyKey: policy file does not exist.
+2022-05-25T16:43:32.873+06:00| vmx| I005: Host PA size: 48 bits. Guest PA size: 40 bits.
+2022-05-25T16:43:32.874+06:00| vmx| I005: ToolsISO: Refreshing imageName for 'ubuntu-64' (refreshCount=1, lastCount=1).
+2022-05-25T16:43:32.874+06:00| vmx| I005: ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2022-05-25T16:43:32.874+06:00| vmx| I005: ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2022-05-25T16:43:32.874+06:00| vmx| I005: ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2022-05-25T16:43:32.874+06:00| vmx| I005: ToolsISO: Selected Tools ISO 'linux.iso' for 'ubuntu-64' guest.
+2022-05-25T16:43:32.875+06:00| deviceThread| I005: VTHREAD 7352 "deviceThread"
+2022-05-25T16:43:32.875+06:00| deviceThread| I005: Device thread is alive
+2022-05-25T16:43:32.875+06:00| vmx| I005: KHZEstimate 3800004
+2022-05-25T16:43:32.875+06:00| vmx| I005: MHZEstimate 3800
+2022-05-25T16:43:32.875+06:00| vmx| I005: NumVCPUs 2
+2022-05-25T16:43:32.875+06:00| vmx| I005: MonTimer: host does not have high resolution timers.
+2022-05-25T16:43:32.875+06:00| vmx| I005: UUID: Writing uuid.bios value: '56 4d a3 c9 40 be e5 05-3a 24 40 66 cd 5a 05 40'
+2022-05-25T16:43:32.875+06:00| vmx| A000: ConfigDB: Setting uuid.bios = "56 4d a3 c9 40 be e5 05-3a 24 40 66 cd 5a 05 40"
+2022-05-25T16:43:32.875+06:00| vmx| I005: UUID: Writing uuid.location value: '56 4d a3 c9 40 be e5 05-3a 24 40 66 cd 5a 05 40'
+2022-05-25T16:43:32.875+06:00| vmx| A000: ConfigDB: Setting uuid.location = "56 4d a3 c9 40 be e5 05-3a 24 40 66 cd 5a 05 40"
+2022-05-25T16:43:32.881+06:00| vmx| I005: AIOGNRC: numThreads=18 ide=0, scsi=1, passthru=1
+2022-05-25T16:43:32.881+06:00| vmx| I005: WORKER: Creating new group with maxThreads=18 (18)
+2022-05-25T16:43:32.886+06:00| vmx| I005: WORKER: Creating new group with maxThreads=1 (19)
+2022-05-25T16:43:32.886+06:00| vmx| I005: MainMem: CPT Host WZ=0 PF=4096 D=0
+2022-05-25T16:43:32.886+06:00| vmx| I005: MainMem: CPT PLS=1 PLR=1 BS=1 BlkP=32 Mult=4 W=50
+2022-05-25T16:43:32.887+06:00| vmx| I005: MainMem: Opened paging file, 'D:\Virtualization\beebox8\564da3c9-40be-e505-3a24-4066cd5a0540.vmem'.
+2022-05-25T16:43:32.887+06:00| vmx| I005: MStat: Creating Stat vm.uptime
+2022-05-25T16:43:32.887+06:00| vmx| I005: MStat: Creating Stat vm.suspendTime
+2022-05-25T16:43:32.887+06:00| vmx| I005: MStat: Creating Stat vm.powerOnTimeStamp
+2022-05-25T16:43:32.887+06:00| aioCompletion| I005: VTHREAD 25740 "aioCompletion"
+2022-05-25T16:43:32.887+06:00| vmx| I005: VMXAIOMGR: Using: simple=Compl
+2022-05-25T16:43:32.889+06:00| vmx| I005: WORKER: Creating new group with maxThreads=1 (20)
+2022-05-25T16:43:32.890+06:00| vmx| I005: WORKER: Creating new group with maxThreads=16 (36)
+2022-05-25T16:43:32.890+06:00| vmx| I005: FeatureCompat: No VM masks.
+2022-05-25T16:43:32.891+06:00| vmx| I005: TimeTracker host to guest rate conversion 6231730296 @ 3800003766Hz -> 0 @ 3800003766Hz
+2022-05-25T16:43:32.891+06:00| vmx| I005: TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + -6231730296
+2022-05-25T16:43:32.891+06:00| vmx| I005: Disabling TSC scaling since host does not support it.
+2022-05-25T16:43:32.891+06:00| vmx| I005: TSC offsetting enabled.
+2022-05-25T16:43:32.891+06:00| vmx| I005: timeTracker.globalProgressMaxAllowanceMS: 2000
+2022-05-25T16:43:32.891+06:00| vmx| I005: timeTracker.globalProgressToAllowanceNS: 1000
+2022-05-25T16:43:32.891+06:00| vmx| I005: MKS PowerOn
+2022-05-25T16:43:32.892+06:00| mks| I005: VTHREAD 22288 "mks"
+2022-05-25T16:43:32.892+06:00| mks| I005: MKS thread is alive
+2022-05-25T16:43:32.892+06:00| svga| I005: VTHREAD 23372 "svga"
+2022-05-25T16:43:32.892+06:00| svga| I005: SVGA thread is alive
+2022-05-25T16:43:32.892+06:00| mks| I005: MKS: SSE2=1, SSSE3=1, SSE4_1=1
+2022-05-25T16:43:32.894+06:00| mouse| I005: VTHREAD 29004 "mouse"
+2022-05-25T16:43:32.894+06:00| mks| I005: MKS-HookKeyboard: RegQueryValueEx(LowLevelHooksTimeout) failed: The system cannot find the file specified (2)
+2022-05-25T16:43:32.894+06:00| kbh| I005: VTHREAD 29384 "kbh"
+2022-05-25T16:43:32.898+06:00| mks| I005: MKS Win32: Registering top level window (0x1481744) to receive session change notification.
+2022-05-25T16:43:32.899+06:00| mks| I005: Current Display Settings:
+2022-05-25T16:43:32.899+06:00| mks| I005:    Display: 0 size: 3840x2160  position: (0, 0) name: \\.\DISPLAY1  
+2022-05-25T16:43:32.899+06:00| mks| I005: MKS Win32: MIL: 0x4000
+2022-05-25T16:43:32.899+06:00| mks| I005: MKS-RenderMain: PowerOn allowed MKSBasicOps 
+2022-05-25T16:43:32.899+06:00| mks| I005: MKS-RenderMain: Collecting RenderOps caps from MKSBasicOps
+2022-05-25T16:43:32.899+06:00| mks| I005: MKS-RenderMain: Starting MKSBasicOps
+2022-05-25T16:43:32.899+06:00| mks| I005: MKS-RenderMain: Started MKSBasicOps
+2022-05-25T16:43:32.899+06:00| mks| I005: MKS-RenderMain: Found Full Renderer: MKSBasicOps
+2022-05-25T16:43:32.899+06:00| mks| I005: MKS-RenderMain: MinimalCaps: maxTextureSize=32768
+2022-05-25T16:43:32.900+06:00| mks| I005: KHBKL: Unable to parse keystring at: ''
+2022-05-25T16:43:32.900+06:00| mks| I005: MKSRemoteMgr: Set default display name: Ubuntu 64-bit
+2022-05-25T16:43:32.900+06:00| mks| I005: MKSRemoteMgr: Loading VNC Configuration from VM config file
+2022-05-25T16:43:32.901+06:00| vmx| I005: VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 20000 us
+2022-05-25T16:43:32.901+06:00| vmx| I005: VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 20000 ticks, dontClusterSize is 128
+2022-05-25T16:43:32.901+06:00| vmx| I005: Chipset version: 0x17
+2022-05-25T16:43:32.902+06:00| vmx| I005: SOUNDLIB: Creating the Wave sound backend.
+2022-05-25T16:43:32.903+06:00| vmx| I005: MigrateBusMemPrealloc: BusMem preallocation begins.
+2022-05-25T16:43:32.903+06:00| vmx| I005: MigrateBusMemPrealloc: BusMem preallocation completes.
+2022-05-25T16:43:32.903+06:00| vmx| A000: ConfigDB: Setting scsi0:0.redo = ""
+2022-05-25T16:43:32.903+06:00| vmx| I005: DISK: OPEN scsi0:0 'D:\Virtualization\beebox8\bee-box.vmdk' persistent R[]
+2022-05-25T16:43:32.904+06:00| vmx| I005: DISKLIB-DSCPTR: Unrecognized ddb entry. ID='isNativeSnapshot' Val='no'
+2022-05-25T16:43:32.905+06:00| vmx| I005: DISKLIB-DSCPTR: Opened [0]: "bee-box-s001.vmdk" (0xa)
+2022-05-25T16:43:32.905+06:00| vmx| I005: DISKLIB-DSCPTR: Opened [1]: "bee-box-s002.vmdk" (0xa)
+2022-05-25T16:43:32.905+06:00| vmx| I005: DISKLIB-DSCPTR: Opened [2]: "bee-box-s003.vmdk" (0xa)
+2022-05-25T16:43:32.906+06:00| vmx| I005: DISKLIB-DSCPTR: Opened [3]: "bee-box-s004.vmdk" (0xa)
+2022-05-25T16:43:32.906+06:00| vmx| I005: DISKLIB-DSCPTR: Opened [4]: "bee-box-s005.vmdk" (0xa)
+2022-05-25T16:43:32.906+06:00| vmx| I005: DISKLIB-DSCPTR: Opened [5]: "bee-box-s006.vmdk" (0xa)
+2022-05-25T16:43:32.907+06:00| vmx| I005: DISKLIB-DSCPTR: Opened [6]: "bee-box-s007.vmdk" (0xa)
+2022-05-25T16:43:32.907+06:00| vmx| I005: DISKLIB-DSCPTR: Opened [7]: "bee-box-s008.vmdk" (0xa)
+2022-05-25T16:43:32.907+06:00| vmx| I005: DISKLIB-DSCPTR: Opened [8]: "bee-box-s009.vmdk" (0xa)
+2022-05-25T16:43:32.907+06:00| vmx| I005: DISKLIB-DSCPTR: Opened [9]: "bee-box-s010.vmdk" (0xa)
+2022-05-25T16:43:32.908+06:00| vmx| I005: DISKLIB-DSCPTR: Opened [10]: "bee-box-s011.vmdk" (0xa)
+2022-05-25T16:43:32.908+06:00| vmx| I005: DISKLIB-LINK  : Opened 'D:\Virtualization\beebox8\bee-box.vmdk' (0xa): twoGbMaxExtentSparse, 41943040 sectors / 20 GB.
+2022-05-25T16:43:32.908+06:00| vmx| I005: DISKLIB-LIB   : Opened "D:\Virtualization\beebox8\bee-box.vmdk" (flags 0xa, type twoGbMaxExtentSparse).
+2022-05-25T16:43:32.908+06:00| vmx| I005: DISKLIB-LIB_MISC   : DiskLib_GetStorageBlockSizes: Failed to get storage block sizes, The virtual disk requires a feature not supported by this program.
+2022-05-25T16:43:32.908+06:00| vmx| I005: DiskGetGeometry: Reading of disk partition table
+2022-05-25T16:43:32.908+06:00| vmx| I005: DISK: Disk 'D:\Virtualization\beebox8\bee-box.vmdk' has UUID '60 00 c2 91 63 ab f5 c5-a0 28 4b a8 45 0b 8d 34'
+2022-05-25T16:43:32.908+06:00| vmx| I005: DISK: OPEN 'D:\Virtualization\beebox8\bee-box.vmdk' Geo (2610/255/63) BIOS Geo (2610/255/63)
+2022-05-25T16:43:32.908+06:00| vmx| I005: DISKLIB-DSCPTR: Unrecognized ddb entry. ID='isNativeSnapshot' Val='no'
+2022-05-25T16:43:32.910+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2022-05-25T16:43:32.910+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2022-05-25T16:43:32.911+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2022-05-25T16:43:32.911+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2022-05-25T16:43:32.912+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2022-05-25T16:43:32.912+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2022-05-25T16:43:32.913+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2022-05-25T16:43:32.913+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2022-05-25T16:43:32.914+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2022-05-25T16:43:32.914+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2022-05-25T16:43:32.915+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2022-05-25T16:43:32.915+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2022-05-25T16:43:32.916+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2022-05-25T16:43:32.916+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2022-05-25T16:43:32.917+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2022-05-25T16:43:32.917+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2022-05-25T16:43:32.918+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2022-05-25T16:43:32.918+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2022-05-25T16:43:32.919+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2022-05-25T16:43:32.919+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2022-05-25T16:43:32.920+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2022-05-25T16:43:32.920+06:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2022-05-25T16:43:32.920+06:00| vmx| I005: DISK: DiskConfigureVirtualSSD:  Disk 'scsi0:0' identified as Virtual SSD device.
+2022-05-25T16:43:32.924+06:00| vmx| I005: DISK: Opening disks took 21 ms.
+2022-05-25T16:43:32.924+06:00| vmx| I005: USB: Initializing 'Virtual Hub' backend
+2022-05-25T16:43:32.924+06:00| vmx| I005: USB: Initializing 'Generic' backend
+2022-05-25T16:43:32.924+06:00| vmx| I005: USB: Initializing 'Virtual HID' backend
+2022-05-25T16:43:32.925+06:00| sensorThread| I005: VTHREAD 24080 "sensorThread"
+2022-05-25T16:43:32.925+06:00| vmx| I005: USB: Initializing 'Remote Device' backend
+2022-05-25T16:43:32.925+06:00| vmx| I005: RemoteUSBVMX: Retrieved hostId [b6 24 2a bc f6 1e 91 c4-61 0c 24 4b fe 52 7a ea]
+2022-05-25T16:43:32.925+06:00| vmx| I005: RemoteUSBVMX: Protocol version min:15 current:17
+2022-05-25T16:43:32.925+06:00| vmx| I005: RemoteUSBVMX: no delay setting is TRUE.
+2022-05-25T16:43:32.925+06:00| vmx| I005: USB: Initializing 'Virtual Mass Storage' backend
+2022-05-25T16:43:32.925+06:00| vmx| I005: USB: Initializing 'Virtual RNG' backend
+2022-05-25T16:43:32.925+06:00| vmx| I005: USB: Initializing 'Virtual CCID' backend
+2022-05-25T16:43:32.926+06:00| usbCCIDEnumCards| I005: VTHREAD 30620 "usbCCIDEnumCards"
+2022-05-25T16:43:32.926+06:00| usbCCIDEnumCards| I005: USB-CCID: Card enum thread created.
+2022-05-25T16:43:32.926+06:00| vmx| I005: USB: Initializing 'Virtual Bluetooth' backend
+2022-05-25T16:43:32.926+06:00| vmx| I005: USB: Initializing 'Virtual Audio' backend
+2022-05-25T16:43:32.926+06:00| vmx| I005: USB: Initializing 'Virtual Video' backend
+2022-05-25T16:43:32.929+06:00| vmx| I005: Win32U_GetFileAttributes: GetFileAttributesExW("D:\Virtualization\beebox8\Ubuntu 64-bit.nvram", ...) failed, error: 2
+2022-05-25T16:43:32.930+06:00| vmx| I005: USBGW: Skipping disk backing for file (D:\Virtualization\beebox8\Ubuntu 64-bit.vmx).
+2022-05-25T16:43:32.930+06:00| vmx| I005: USBGW: Skipping disk backing for file (D:\Virtualization\beebox8\bee-box.vmdk).
+2022-05-25T16:43:32.930+06:00| vmx| I005: USBGW: Skipping disk backing for file (D:\Virtualization\beebox8\Ubuntu 64-bit.vmsd).
+2022-05-25T16:43:32.931+06:00| vmx| I005: OBJLIB-FILEBE : FileBEOpen: can't open 'Ubuntu 64-bit.nvram' : Could not find the file (393218).
+2022-05-25T16:43:32.931+06:00| vmx| I005: OBJLIB-FILEBE : FileBEOpen: can't open 'Ubuntu 64-bit.nvram' : Could not find the file (393218).
+2022-05-25T16:43:32.931+06:00| vmx| W003: NVRAMMGR: No valid NVRAM file found, will create default NVRAM.
+2022-05-25T16:43:32.932+06:00| vmx| A000: ConfigDB: Setting pciBridge0.pciSlotNumber = "17"
+2022-05-25T16:43:32.932+06:00| vmx| A000: ConfigDB: Setting pciBridge4.pciSlotNumber = "21"
+2022-05-25T16:43:32.932+06:00| vmx| A000: ConfigDB: Setting pciBridge5.pciSlotNumber = "22"
+2022-05-25T16:43:32.932+06:00| vmx| A000: ConfigDB: Setting pciBridge6.pciSlotNumber = "23"
+2022-05-25T16:43:32.932+06:00| vmx| A000: ConfigDB: Setting pciBridge7.pciSlotNumber = "24"
+2022-05-25T16:43:32.932+06:00| vmx| A000: ConfigDB: Setting scsi0.pciSlotNumber = "16"
+2022-05-25T16:43:32.932+06:00| vmx| A000: ConfigDB: Setting usb.pciSlotNumber = "32"
+2022-05-25T16:43:32.932+06:00| vmx| A000: ConfigDB: Setting ethernet0.pciSlotNumber = "33"
+2022-05-25T16:43:32.932+06:00| vmx| A000: ConfigDB: Setting sound.pciSlotNumber = "34"
+2022-05-25T16:43:32.932+06:00| vmx| A000: ConfigDB: Setting ehci.pciSlotNumber = "35"
+2022-05-25T16:43:32.932+06:00| vmx| A000: ConfigDB: Setting vmci0.pciSlotNumber = "36"
+2022-05-25T16:43:32.941+06:00| vmx| I005: SCSI DEVICE (ide1:0): Computed value of ide1:0.useBounceBuffers: default
+2022-05-25T16:43:32.941+06:00| vmx| I005: DISKUTIL: ide1:0 : capacity=0 logical sector size=2048
+2022-05-25T16:43:32.941+06:00| vmx| I005: DISKUTIL: ide1:0 : geometry=0/0/0
+2022-05-25T16:43:32.941+06:00| vmx| I005: SCSI: scsi0: intr coalescing: on period=50msec cifTh=4 iopsTh=2000 hlt=0
+2022-05-25T16:43:32.941+06:00| vmx| I005: SCSI0: UNTAGGED commands will be converted to ORDER tags.
+2022-05-25T16:43:32.941+06:00| vmx| I005: SCSI DEVICE (scsi0:0): Computed value of scsi0:0.useBounceBuffers: default
+2022-05-25T16:43:32.941+06:00| vmx| I005: DISKUTIL: scsi0:0 : capacity=41943040 logical sector size=512
+2022-05-25T16:43:32.941+06:00| vmx| I005: DISKUTIL: scsi0:0 : geometry=2610/255/63
+2022-05-25T16:43:32.941+06:00| vmx| I005: SVGA-GFB: Config settings: autodetect=0, numDisplays=1, maxWidth=1024, maxHeight=768
+2022-05-25T16:43:32.941+06:00| vmx| I005: SVGA-GFB: Desired maximum display topology: wh(1024, 768)
+2022-05-25T16:43:32.941+06:00| vmx| I005: SVGA-GFB: Autodetected target gfbSize = 268435456
+2022-05-25T16:43:32.941+06:00| vmx| I005: SVGA-GFB: Using Initial       gfbSize = 3145728
+2022-05-25T16:43:32.941+06:00| vmx| I005: SVGA-GFB: Max wh(1024, 768), number of displays: 1
+2022-05-25T16:43:32.941+06:00| vmx| I005: SVGA-GFB: Allocated gfbSize=3145728
+2022-05-25T16:43:32.941+06:00| vmx| A000: ConfigDB: Setting vmotion.checkpointFBSize = "3145728"
+2022-05-25T16:43:32.941+06:00| vmx| I005: SVGACaps: Device       caps : 0x00ff83e2
+2022-05-25T16:43:32.941+06:00| vmx| I005: SVGACaps: Device       caps2: 0x00000000
+2022-05-25T16:43:32.941+06:00| vmx| I005: SVGA: FIFO capabilities 0x0000077f
+2022-05-25T16:43:32.942+06:00| vmx| I005: SVGA3dClamp: Renderer Provides     BC67Level:     0 (    0,     0)
+2022-05-25T16:43:32.942+06:00| vmx| I005: SVGA3dClamp: Renderer Provides BaseCapsLevel:     0 (    0,     0)
+2022-05-25T16:43:32.942+06:00| vmx| I005: SVGA3dClamp: Renderer Provides    ClampLevel:     0 (    0,     0)
+2022-05-25T16:43:32.942+06:00| vmx| I005: SVGA3dCaps: host, at power on (3d disabled)
+2022-05-25T16:43:32.942+06:00| vmx| I005: SVGA3dClamp:     Host Provides     BC67Level:     0 (    0,     0)
+2022-05-25T16:43:32.942+06:00| vmx| I005: SVGA3dClamp:     Host Provides BaseCapsLevel:     0 (    0,     0)
+2022-05-25T16:43:32.942+06:00| vmx| I005: SVGA3dClamp:     Host Provides    ClampLevel:     0 (    0,     0)
+2022-05-25T16:43:32.942+06:00| vmx| I005: SVGA3dCaps: guest, compatibility level: 8
+2022-05-25T16:43:32.942+06:00| vmx| I005: SVGA3dClamp:    Guest Requires     BC67Level:     0 (    0,     0)
+2022-05-25T16:43:32.942+06:00| vmx| I005: SVGA3dClamp:    Guest Requires BaseCapsLevel:     0 (    0,     0)
+2022-05-25T16:43:32.942+06:00| vmx| I005: SVGA3dClamp:    Guest Requires    ClampLevel:     0 (    0,     0)
+2022-05-25T16:43:32.942+06:00| vmx| I005: USB: Initializing 'UHCI' host controller
+2022-05-25T16:43:32.942+06:00| vmx| A000: ConfigDB: Setting ethernet0.generatedAddress = "00:0c:29:5a:05:40"
+2022-05-25T16:43:32.942+06:00| vmx| A000: ConfigDB: Setting ethernet0.generatedAddressOffset = "0"
+2022-05-25T16:43:32.942+06:00| vmx| I005: Ethernet0 MAC Address: 00:0c:29:5a:05:40
+2022-05-25T16:43:32.947+06:00| vmx| I005: USB: Initializing 'EHCI' host controller
+2022-05-25T16:43:32.948+06:00| vmx| A000: ConfigDB: Setting vmci0.id = "-849738432"
+2022-05-25T16:43:32.958+06:00| vmx| I005: WORKER: Creating new group with maxThreads=1 (37)
+2022-05-25T16:43:32.958+06:00| vmx| I005: DISKUTIL: scsi0:0 : max toolsVersion = 8453, type = 0
+2022-05-25T16:43:32.958+06:00| vmx| I005: TOOLS setting legacy tools version to '8453' type 0, manifest status is 9
+2022-05-25T16:43:32.958+06:00| worker-24528| I005: ToolsISO: Refreshing imageName for 'ubuntu-64' (refreshCount=1, lastCount=1).
+2022-05-25T16:43:32.958+06:00| worker-24528| I005: ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2022-05-25T16:43:32.958+06:00| worker-24528| I005: ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2022-05-25T16:43:32.958+06:00| vmx| I005: Tools: sending 'OS_PowerOn' (state = 3) state change request
+2022-05-25T16:43:32.958+06:00| vmx| I005: Tools: Delaying state change request to state 3.
+2022-05-25T16:43:32.958+06:00| vmx| I005: TOOLS INSTALL initializing state to IDLE on power on.
+2022-05-25T16:43:32.958+06:00| worker-24528| I005: ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2022-05-25T16:43:32.958+06:00| worker-24528| I005: ToolsISO: Selected Tools ISO 'linux.iso' for 'ubuntu-64' guest.
+2022-05-25T16:43:32.958+06:00| worker-24528| I005: GetHostManifests: Extracting C:\Users\LAdmin\AppData\Local\Temp\vmware-LAdmin\manifest.txt.24528.iso.shipped manifest file.
+2022-05-25T16:43:32.958+06:00| vmx| I005: P9FS_PowerOn: 9PFS server is not enabled.
+2022-05-25T16:43:32.958+06:00| worker-24528| I005: ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\linux.iso.sha failed: Could not find the file
+2022-05-25T16:43:32.958+06:00| worker-24528| I005: ToolsISO: Unable to read hash file C:\Program Files (x86)\VMware\VMware Workstation\linux.iso.sha, ignoring.
+2022-05-25T16:43:32.958+06:00| vmx| I005: HgfsServerManagerVigorInit: Initialize: dev api
+2022-05-25T16:43:32.958+06:00| vmx| I005: DEPLOYPKG: No pending deploy package name set
+2022-05-25T16:43:32.959+06:00| vmx| I005: DEPLOYPKG: ToolsDeployPkgPublishState: state=0, code=0, message=(null)
+2022-05-25T16:43:32.959+06:00| worker-24528| I005: GetHostManifests: Done extracting the manifest file.
+2022-05-25T16:43:32.959+06:00| worker-24528| I005: Win32U_GetFileAttributes: GetFileAttributesExW("C:\Program Files (x86)\VMware\VMware Workstation\linux_avr_manifest.txt", ...) failed, error: 2
+2022-05-25T16:43:32.959+06:00| worker-24528| I005: ToolsVersion: Status is too old because this is status of monolithic version.
+2022-05-25T16:43:32.959+06:00| worker-24528| I005: Using ToolsMinVersion = 8384
+2022-05-25T16:43:32.960+06:00| worker-24528| I005: ToolsVersionGetStatusWorkerThread: Tools status 1 derived from environment
+2022-05-25T16:43:32.960+06:00| vmx| A000: ConfigDB: Setting monitor.phys_bits_used = "40"
+2022-05-25T16:43:32.965+06:00| vmx| I005: Full guest CPUID with differences from hostCPUID highlighted.
+2022-05-25T16:43:32.965+06:00| vmx| I005: guest vs. host CPUID guest vendor: AuthenticAMD
+2022-05-25T16:43:32.965+06:00| vmx| I005: guest vs. host CPUID guest family: 0x19 model: 0x21 stepping: 0x0
+2022-05-25T16:43:32.965+06:00| vmx| I005: guest vs. host CPUID guest codename: Zen3
+2022-05-25T16:43:32.965+06:00| vmx| I005: guest vs. host CPUID guest name: AMD Ryzen 7 5800X 8-Core Processor             
+2022-05-25T16:43:32.965+06:00| vmx| I005: guest vs. host CPUID       level eaxIn, ecxIn:        eax        ebx        ecx        edx
+2022-05-25T16:43:32.965+06:00| vmx| I005: guest vs. host CPUID guest level 00000000,  0: 0x0000000d 0x68747541 0x444d4163 0x69746e65
+2022-05-25T16:43:32.965+06:00| vmx| I005: guest vs. host CPUID guest level 00000001,  0: 0x00a20f10 0x00000800 0x96d83203 0x078bfbff
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID *host level 00000001,  0: 0x00a20f10 0x00100800 0xfed8320b 0x178bfbff
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 00000006,  0: 0x00000004 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID *host level 00000006,  0: 0x00000000 0x00000000 0x00000001 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 00000007,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID *host level 00000007,  0: 0x00000000 0x219c97a9 0x00400684 0x00000010
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 0000000d,  0: 0x00000007 0x00000340 0x00000340 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 0000000d,  1: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID *host level 0000000d,  1: 0x0000000f 0x00000350 0x00001800 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 0000000d,  2: 0x00000100 0x00000240 0x00000000 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 40000000,  0: 0x40000010 0x61774d56 0x4d566572 0x65726177
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID *host level 40000000,  0: 0x4000000c 0x7263694d 0x666f736f 0x76482074
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 40000010,  0: 0x0039fbc4 0x000101d0 0x00000000 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 80000000,  0: 0x80000021 0x68747541 0x444d4163 0x69746e65
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 80000001,  0: 0x00a20f10 0x20000000 0x000003e1 0x2bd3fbff
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID *host level 80000001,  0: 0x00a20f10 0x20000000 0x20c023f3 0x2fd3fbff
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 80000002,  0: 0x20444d41 0x657a7952 0x2037206e 0x30303835
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 80000003,  0: 0x2d382058 0x65726f43 0x6f725020 0x73736563
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 80000004,  0: 0x2020726f 0x20202020 0x20202020 0x00202020
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 80000005,  0: 0xff40ff40 0xff40ff40 0x20080140 0x20080140
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 80000006,  0: 0x48002200 0x68004200 0x02006140 0x01009140
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 80000007,  0: 0x00000000 0x00000003 0x00000000 0x00000100
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID *host level 80000007,  0: 0x00000000 0x0000001b 0x00000000 0x00004589
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 80000008,  0: 0x00003028 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID *host level 80000008,  0: 0x00003030 0x1100d215 0x0000400f 0x00010000
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 8000001a,  0: 0x00000006 0x00000000 0x00000000 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 8000001d,  0: 0x00004121 0x01c0003f 0x0000003f 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 8000001d,  1: 0x00004122 0x01c0003f 0x0000003f 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 8000001d,  2: 0x00004143 0x01c0003f 0x000003ff 0x00000002
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 8000001d,  3: 0x0003c163 0x03c0003f 0x00007fff 0x00000001
+2022-05-25T16:43:32.966+06:00| vmx| I005: guest vs. host CPUID guest level 8000001e,  0: 0x00000000 0x00000100 0x00000000 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: Minimum ucode level: 0x00000000
+2022-05-25T16:43:32.966+06:00| vmx| I005: VPMC: events will use hybrid freeze.
+2022-05-25T16:43:32.966+06:00| vmx| I005: VPMC: gen counters: num 4 mask 0xffffffffffff
+2022-05-25T16:43:32.966+06:00| vmx| I005: VPMC: hardware counters: 0
+2022-05-25T16:43:32.966+06:00| vmx| I005: SVGA-PCI: BAR gfbSize=134217728, fifoSize=8388608
+2022-05-25T16:43:32.966+06:00| vmx| I005: SVGA: SVGA_REG_MEMORY_SIZE=808452096
+2022-05-25T16:43:32.966+06:00| vmx| I005: SVGA: SVGA_REG_VRAM_SIZE=3145728
+2022-05-25T16:43:32.966+06:00| vmx| I005: FeatureCompat: Capabilities:
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.sse3 = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.pclmulqdq = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.mwait = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.ssse3 = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.fma = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.cmpxchg16b = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.sse41 = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.sse42 = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.movbe = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.popcnt = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.aes = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.xsave = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.avx = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.f16c = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.rdrand = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.fsgsbase = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.bmi1 = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.avx2 = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.smep = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.bmi2 = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.enfstrg = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.invpcid = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.rdseed = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.adx = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.smap = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.clflushopt = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.clwb = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.sha = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.umip = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.vaes = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.vpclmulqdq = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.rdpid = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.fast_short_repmov = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.xcr0_master_sse = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.xcr0_master_ymm_h = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.xsaveopt = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.xsavec = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.xgetbv_ecx1 = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.xsaves = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.lahf64 = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.cr8avail = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.abm = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.sse4a = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.misaligned_sse = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.3dnprefetch = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.nx = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.mmxext = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.ffxsr = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.pdpe1gb = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.rdtscp = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.lm = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.clzero = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.wbnoinvd = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.sev = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.sev_es = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.amd = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: Capability Found: cpuid.ibpb = 1
+2022-05-25T16:43:32.966+06:00| vmx| I005: FeatureCompat: Requirements:
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.sse3 - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.pclmulqdq - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.ssse3 - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.fma - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.cmpxchg16b - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.sse41 - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.sse42 - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.movbe - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.popcnt - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.aes - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.xsave - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.avx - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.xcr0_master_sse - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.xcr0_master_ymm_h - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.lahf64 - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.abm - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.sse4a - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.misaligned_sse - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.3dnprefetch - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.nx - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.mmxext - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.ffxsr - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.rdtscp - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.lm - Bool:Min:1
+2022-05-25T16:43:32.966+06:00| vmx| I005: VM Features Required: cpuid.amd - Bool:Min:1
+2022-05-25T16:43:32.967+06:00| vmx| W003: ULM: Failed to set up partition, res 0xc0350005.
+2022-05-25T16:43:32.968+06:00| vmx| I005: Module 'ULM' power on failed.
+2022-05-25T16:43:32.968+06:00| vmx| I005: VMX_PowerOn: ModuleTable_PowerOn = 0
+2022-05-25T16:43:32.968+06:00| vmx| I005: HgfsServerManagerVigorExit: Destroy:
+2022-05-25T16:43:32.968+06:00| vmx| I005: ToolsISO: Refreshing imageName for 'ubuntu-64' (refreshCount=1, lastCount=1).
+2022-05-25T16:43:32.968+06:00| vmx| I005: ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2022-05-25T16:43:32.968+06:00| vmx| I005: ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2022-05-25T16:43:32.968+06:00| vmx| I005: ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2022-05-25T16:43:32.968+06:00| vmx| I005: ToolsISO: Selected Tools ISO 'linux.iso' for 'ubuntu-64' guest.
+2022-05-25T16:43:32.968+06:00| vmx| I005: TOOLS updated cached value for isoImageExists to 1.
+2022-05-25T16:43:32.968+06:00| vmx| I005: Tools: ToolsRunningStatus_Exit, delayedRequest is 0x1FB0878A900
+2022-05-25T16:43:32.968+06:00| vmx| I005: ToolsISO: Refreshing imageName for 'ubuntu-64' (refreshCount=1, lastCount=1).
+2022-05-25T16:43:32.968+06:00| vmx| I005: ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2022-05-25T16:43:32.968+06:00| vmx| I005: ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2022-05-25T16:43:32.969+06:00| vmx| I005: ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2022-05-25T16:43:32.969+06:00| vmx| I005: ToolsISO: Selected Tools ISO 'linux.iso' for 'ubuntu-64' guest.
+2022-05-25T16:43:32.969+06:00| vmx| I005: TOOLS updated cached value for isoImageExists to 1.
+2022-05-25T16:43:32.969+06:00| vmx| I005: VMXVmdb_SetToolsVersionStatus: status value set to 'oldTools', 'tooOld', install possible
+2022-05-25T16:43:32.969+06:00| svga| I005: SVGA thread is exiting the main loop
+2022-05-25T16:43:32.970+06:00| usbCCIDEnumCards| I005: USB-CCID: Card enum thread exiting.
+2022-05-25T16:43:32.982+06:00| vmx| I005: SOUNDLIB: Closing Wave sound backend.
+2022-05-25T16:43:32.983+06:00| vmx| I005: MKS/SVGA threads are stopped
+2022-05-25T16:43:32.983+06:00| mks| I005: MKS-RenderMain: Stopped MKSBasicOps
+2022-05-25T16:43:32.984+06:00| mks| I005: MKS PowerOff
+2022-05-25T16:43:32.984+06:00| mks| I005: MKS thread is exiting
+2022-05-25T16:43:32.984+06:00| svga| I005: SVGA thread is exiting
+2022-05-25T16:43:32.984+06:00| vmx| W003: 
+2022-05-25T16:43:32.984+06:00| vmx| I005: scsi0:0: numIOs = 1 numMergedIOs = 0 numSplitIOs = 0 ( 0.0%)
+2022-05-25T16:43:32.984+06:00| vmx| I005: Closing disk 'scsi0:0'
+2022-05-25T16:43:32.987+06:00| vmx| I005: AIOWIN32C: asyncOps=2 syncOps=77 bufSize=0Kb fixedOps=0
+2022-05-25T16:43:32.987+06:00| aioCompletion| I005: AIO thread processed 2 completions
+2022-05-25T16:43:32.988+06:00| deviceThread| I005: Device thread is exiting
+2022-05-25T16:43:32.988+06:00| vmx| I005: Vix: [mainDispatch.c:1163]: VMAutomationPowerOff: Powering off.
+2022-05-25T16:43:32.988+06:00| vmx| I005: Win32U_GetFileAttributes: GetFileAttributesExW("D:\Virtualization\beebox8\Ubuntu 64-bit.vmpl", ...) failed, error: 2
+2022-05-25T16:43:32.988+06:00| vmx| I005: Policy_SavePolicyFile: invalid arguments to function.
+2022-05-25T16:43:32.988+06:00| vmx| I005: PolicyVMX_Exit: Could not write out policies: 15.
+2022-05-25T16:43:32.988+06:00| vmx| I005: WORKER: asyncOps=2 maxActiveOps=1 maxPending=1 maxCompleted=1
+2022-05-25T16:43:32.989+06:00| PowerNotifyThread| I005: PowerNotify thread exiting.
+2022-05-25T16:43:32.994+06:00| vmx| I005: Vix: [mainDispatch.c:4205]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2022-05-25T16:43:32.996+06:00| vmx| I005: 
+2022-05-25T16:43:32.996+06:00| vmx| I005+ Power on failure messages: Failed to start the virtual machine.
+2022-05-25T16:43:32.996+06:00| vmx| I005+ 
+2022-05-25T16:43:32.996+06:00| vmx| I005: Vix: [mainDispatch.c:4205]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2022-05-25T16:43:32.996+06:00| vmx| I005: Transitioned vmx/execState/val to poweredOff
+2022-05-25T16:43:32.996+06:00| vmx| I005: Vix: [mainDispatch.c:4205]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=0 additionalError=0
+2022-05-25T16:43:32.996+06:00| vmx| I005: Vix: [mainDispatch.c:4243]: Error VIX_E_FAIL in VMAutomation_ReportPowerOpFinished(): Unknown error
+2022-05-25T16:43:32.996+06:00| vmx| I005: Vix: [mainDispatch.c:4205]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2022-05-25T16:43:32.996+06:00| vmx| I005: Transitioned vmx/execState/val to poweredOff
+2022-05-25T16:43:32.996+06:00| vmx| I005: WQPoolFreePoll : pollIx = 3, signalHandle = 952
+2022-05-25T16:43:32.997+06:00| vmx| I005: Vix: [mainDispatch.c:815]: VMAutomation_LateShutdown()
+2022-05-25T16:43:32.997+06:00| vmx| I005: Vix: [mainDispatch.c:770]: VMAutomationCloseListenerSocket. Closing listener socket.
+2022-05-25T16:43:32.997+06:00| vmx| I005: Flushing VMX VMDB connections
+2022-05-25T16:43:32.997+06:00| vmx| I005: VmdbDbRemoveCnx: Removing Cnx from Db for '/db/connection/#1/'
+2022-05-25T16:43:32.997+06:00| vmx| I005: VmdbCnxDisconnect: Disconnect: closed pipe for pub cnx '/db/connection/#1/' (0)
+2022-05-25T16:43:32.997+06:00| vmx| I005: VigorTransport_ServerDestroy: server destroyed.
+2022-05-25T16:43:32.997+06:00| vmx| I005: WQPoolFreePoll : pollIx = 2, signalHandle = 864
+2022-05-25T16:43:32.997+06:00| vmx| I005: WQPoolFreePoll : pollIx = 1, signalHandle = 856
+2022-05-25T16:43:32.999+06:00| vmx| I005: VMX exit (0).
+2022-05-25T16:43:32.999+06:00| vmx| I005: OBJLIB-LIB: ObjLib cleanup done.
+2022-05-25T16:43:32.999+06:00| vmx| I005: AIOMGR-S : stat o=5 r=12 w=17 i=0 br=106892 bw=8780
